@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { TodoItemComponent } from './todo-item/todo-item.component';
 
 @NgModule({
   imports: [
@@ -12,6 +13,7 @@ import { AppComponent } from './app.component';
   ],
   declarations: [
     AppComponent,
+    TodoItemComponent,
   ],
   bootstrap: [ AppComponent ]
 })
